@@ -7,6 +7,7 @@ import com.pokemonview.api.exceptions.PokemonNotFoundException;
 
 public interface PokemonService {
 
+    // Interface class done
     PokemonDTO createPokemon(PokemonDTO pokemonDTO) throws PokemonAlreadyExistsException;
     PokemonResponse getAllPokemon(int pageNo, int PageSize);
     PokemonDTO getPokemonById(int id) throws PokemonNotFoundException;
