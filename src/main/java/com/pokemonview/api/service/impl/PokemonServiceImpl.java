@@ -22,6 +22,7 @@ import java.util.stream.Collectors;
 @Service
 public class PokemonServiceImpl implements PokemonService {
 
+    // Pokemon Service Impl class done
     private static final Logger logger = LoggerFactory.getLogger(PokemonServiceImpl.class);
     @Autowired
     private final PokemonRepository pokemonRepository;
